@@ -130,15 +130,6 @@ npm run build
 vercel --prod
 ```
 
-## 📝 TODO
-
-- [ ] Ürün fotoğraflarını ekle
-- [ ] Sepet fonksiyonalitesi
-- [ ] Ödeme sistemi entegrasyonu
-- [ ] Admin paneli
-- [ ] Blog sayfası
-- [ ] Newsletter sistemi
-
 ## 🤝 Katkıda Bulunma
 
 1. Fork yapın
