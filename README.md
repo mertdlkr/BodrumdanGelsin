@@ -1,70 +1,170 @@
-# Getting Started with Create React App
+# 🍊 Bodrum'dan Gelsin
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Bodrum'un en özel mandalina ürünlerini Türkiye'nin her yerine ulaştıran e-ticaret platformu**
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-In the project directory, you can run:
+## 📖 Proje Hakkında
 
-### `npm start`
+Bodrum'dan Gelsin, Bodrum'un eşsiz mandalina ürünlerini Türkiye'nin dört bir yanına ulaştırmayı amaçlayan modern bir e-ticaret platformudur. Köylerden şehirlere uzanan bu platform, geleneksel lezzetleri modern teknoloji ile buluşturuyor.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ✨ Özellikler
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🎨 **Modern UI/UX**: Turuncu temalı, Bodrum'un yaz atmosferini yansıtan tasarım
+- 📱 **Responsive**: Tüm cihazlarda mükemmel görünüm
+- 🛒 **Ürün Kataloğu**: 9 farklı mandalina ürünü
+- 🎓 **Atölye Sayfası**: Eğitim ve workshop bilgileri
+- 🔐 **Kullanıcı Girişi**: Güvenli authentication sistemi
+- ⚡ **Modern Animasyonlar**: Hover efektleri ve geçişler
+- 🎯 **SEO Dostu**: Optimize edilmiş yapı
 
-### `npm test`
+## 🛍️ Ürünlerimiz
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Mandalina Kurusu** - Doğal kurutulmuş mandalina dilimleri
+- **Mandalina Lokumu** - Geleneksel tarif ile hazırlanan lokum
+- **Mandalinalı Soya Mumu** - Büyük ve küçük boy doğal mumlar
+- **Mandalina Sabunu** - El yapımı doğal sabun
+- **Mandalina Kolonyası** - Ferahlatıcı kolonya
+- **Mandalina Gazozu** - Doğal aromalı gazlı içecek
+- **Mandalina Reçeli** - Ev yapımı reçel
+- **Hediye Kutusu** - Özel hediye setleri
 
-### `npm run build`
+## 🚀 Kurulum
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Gereksinimler
+- Node.js (v14 veya üzeri)
+- npm veya yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Adımlar
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Projeyi klonlayın**
+```bash
+git clone https://github.com/kullaniciadi/bodrumdan-gelsin.git
+cd bodrumdan-gelsin
+```
 
-### `npm run eject`
+2. **Bağımlılıkları yükleyin**
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Geliştirme sunucusunu başlatın**
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Tarayıcıda açın**
+```
+http://localhost:3000
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📁 Proje Yapısı
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+yeniproje/
+├── public/
+│   ├── logo.png                  # Site logosu
+│   └── index.html
+├── src/
+│   ├── assets/
+│   │   └── products/             # Ürün fotoğrafları
+│   ├── components/
+│   │   ├── Header.js             # Üst menü
+│   │   └── Footer.js             # Alt bilgi
+│   ├── pages/
+│   │   ├── Home.js               # Ana sayfa
+│   │   ├── Products.js           # Ürünler
+│   │   ├── Workshops.js          # Atölyeler
+│   │   ├── About.js              # Hakkımızda
+│   │   ├── Contact.js            # İletişim
+│   │   └── Login.js              # Giriş
+│   ├── App.js                    # Ana uygulama
+│   └── index.js                  # Giriş noktası
+└── README.md
+```
 
-## Learn More
+## 🎨 Tasarım Sistemi
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Renkler
+- **Birincil**: `#FF6B35` (Bodrum Turuncu)
+- **İkincil**: `#FFFEF7` (Krem Beyaz)
+- **Arka Plan**: `linear-gradient(135deg, #FF6B35, #F7931E)`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Tipografi
+- **Font**: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+- **Başlıklar**: Bold, büyük boyut
+- **Metin**: Normal ağırlık, okunabilir boyut
 
-### Code Splitting
+## 🔐 Giriş Bilgileri
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Test hesabı:**
+- Kullanıcı adı: `tuana`
+- Şifre: `123`
 
-### Analyzing the Bundle Size
+## 📸 Fotoğraf Rehberi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Ürün fotoğrafları için detaylı isimlendirme kılavuzu `URUN_FOTOGRAFLARI.md` dosyasında bulunmaktadır.
 
-### Making a Progressive Web App
+## 🛠️ Teknolojiler
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Frontend**: React.js
+- **Routing**: React Router DOM
+- **Styling**: CSS3 (Custom)
+- **State Management**: React Hooks
+- **Authentication**: localStorage
 
-### Advanced Configuration
+## 📱 Responsive Tasarım
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Desktop**: 1200px+
+- **Tablet**: 768px - 1199px
+- **Mobile**: 320px - 767px
 
-### Deployment
+## 🚀 Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Netlify ile Deploy
+```bash
+npm run build
+# Dist klasörünü Netlify'a yükleyin
+```
 
-### `npm run build` fails to minify
+### Vercel ile Deploy
+```bash
+npm run build
+vercel --prod
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 TODO
+
+- [ ] Ürün fotoğraflarını ekle
+- [ ] Sepet fonksiyonalitesi
+- [ ] Ödeme sistemi entegrasyonu
+- [ ] Admin paneli
+- [ ] Blog sayfası
+- [ ] Newsletter sistemi
+
+## 🤝 Katkıda Bulunma
+
+1. Fork yapın
+2. Feature branch oluşturun (`git checkout -b feature/yeni-ozellik`)
+3. Commit yapın (`git commit -am 'Yeni özellik eklendi'`)
+4. Branch'i push yapın (`git push origin feature/yeni-ozellik`)
+5. Pull Request oluşturun
+
+## 📄 Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakın.
+
+## 📧 İletişim
+
+- **Email**: info@bodrumdan-gelsin.com
+- **Website**: [bodrumdan-gelsin.com](https://bodrumdan-gelsin.com)
+- **GitHub**: [@kullaniciadi](https://github.com/kullaniciadi)
+
+## 🙏 Teşekkürler
+
+Bu projeye katkıda bulunan herkese teşekkürler. Bodrum'un lezzetlerini dijital dünyaya taşımak için birlikte çalışıyoruz!
+
+---
+*Bodrum'dan Gelsin - Lezzet yolculuğunuz burada başlar! 🍊*

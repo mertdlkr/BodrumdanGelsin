@@ -6,7 +6,7 @@ const Products = () => {
     {
       id: 1,
       name: 'Mandalina Kurusu',
-      image: '/placeholder-product.jpg',
+      image: 'https://via.placeholder.com/300x300/FF6B35/FFFFFF?text=Mandalina+Kurusu',
       price: '130',
       weight: '80gr',
       description: 'Doğal yöntemlerle kurutulmuş, el seçimi mandalina dilimleri'
@@ -14,7 +14,7 @@ const Products = () => {
     {
       id: 2,
       name: 'Mandalina Lokumu',
-      image: '/placeholder-product.jpg',
+      image: 'https://via.placeholder.com/300x300/FF6B35/FFFFFF?text=Mandalina+Lokumu',
       price: '180',
       weight: '300gr',
       description: 'Geleneksel tarif ile hazırlanan, gerçek mandalina aromalı lokum'
@@ -22,7 +22,7 @@ const Products = () => {
     {
       id: 3,
       name: 'Büyük Mandalinalı Soya Mumu',
-      image: '/placeholder-product.jpg',
+      image: 'https://via.placeholder.com/300x300/FF6B35/FFFFFF?text=Soya+Mumu+Büyük',
       price: '400',
       weight: '200gr',
       description: '100% doğal soya mumu, uzun süre yanan mandalina kokulu'
@@ -30,7 +30,7 @@ const Products = () => {
     {
       id: 4,
       name: 'Küçük Mandalinalı Soya Mumu',
-      image: '/placeholder-product.jpg',
+      image: 'https://via.placeholder.com/300x300/FF6B35/FFFFFF?text=Soya+Mumu+Küçük',
       price: '250',
       weight: '100gr',
       description: 'Kompakt boyut, doğal soya mumu ile mandalina esansı'
@@ -38,7 +38,7 @@ const Products = () => {
     {
       id: 5,
       name: 'Mandalina Sabunu',
-      image: '/placeholder-product.jpg',
+      image: 'https://via.placeholder.com/300x300/FF6B35/FFFFFF?text=Mandalina+Sabunu',
       price: '50',
       weight: '100gr',
       description: 'El yapımı, doğal mandalina yağı içeren nemlendirici sabun'
@@ -46,7 +46,7 @@ const Products = () => {
     {
       id: 6,
       name: 'Mandalina Kolonyası',
-      image: '/placeholder-product.jpg',
+      image: 'https://via.placeholder.com/300x300/FF6B35/FFFFFF?text=Mandalina+Kolonyası',
       price: '150',
       weight: '200ml',
       description: 'Ferahlatıcı mandalina kolonyası, %80 alkol içerikli'
@@ -54,7 +54,7 @@ const Products = () => {
     {
       id: 7,
       name: 'Mandalina Gazozu (6\'lı)',
-      image: '/placeholder-product.jpg',
+      image: 'https://via.placeholder.com/300x300/FF6B35/FFFFFF?text=Mandalina+Gazozu',
       price: '350',
       weight: '200ml x 6',
       description: 'Doğal mandalina aromalı, 6 adet şişe gazlı içecek'
@@ -62,7 +62,7 @@ const Products = () => {
     {
       id: 8,
       name: 'Mandalina Reçeli',
-      image: '/placeholder-product.jpg',
+      image: 'https://via.placeholder.com/300x300/FF6B35/FFFFFF?text=Mandalina+Reçeli',
       price: '300',
       weight: '310gr',
       description: 'Ev yapımı, doğal mandalina meyvesinden hazırlanan reçel'
@@ -70,7 +70,7 @@ const Products = () => {
     {
       id: 9,
       name: 'Bodrum\'dan Hediye Kutusu',
-      image: '/placeholder-product.jpg',
+      image: 'https://via.placeholder.com/300x300/FF6B35/FFFFFF?text=Hediye+Kutusu',
       price: '1000',
       weight: 'Karma',
       description: 'Özenle seçilmiş mandalina ürünlerinden oluşan hediye seti'
