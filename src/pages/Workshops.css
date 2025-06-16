@@ -1,0 +1,167 @@
+.workshops-page {
+  padding: 2rem 0;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.page-header h1 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.page-header p {
+  color: var(--text-color);
+  font-size: 1.2rem;
+}
+
+.workshops-section,
+.tshirts-section {
+  margin-bottom: 4rem;
+}
+
+.workshops-section h2,
+.tshirts-section h2 {
+  color: var(--text-color);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.workshop-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.workshop-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.workshop-image {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.workshop-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.workshop-info {
+  padding: 1.5rem;
+}
+
+.workshop-info h3 {
+  color: var(--text-color);
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.workshop-info p {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.workshop-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.duration,
+.price {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.tshirt-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.tshirt-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tshirt-image {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.tshirt-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tshirt-info {
+  padding: 1.5rem;
+}
+
+.tshirt-info h3 {
+  color: var(--text-color);
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.tshirt-sizes {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.size {
+  padding: 0.25rem 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.size:hover {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+.tshirt-price {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+  .workshop-grid,
+  .tshirt-grid {
+    grid-template-columns: 1fr;
+  }
+} 

@@ -1,0 +1,238 @@
+.home {
+  padding: 0;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 2rem 2rem;
+  background: var(--section-bg);
+  color: var(--text-color);
+  margin: 2rem;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  position: relative;
+  z-index: 2;
+  letter-spacing: 1px;
+}
+
+.hero-section p {
+  font-size: 1rem;
+  opacity: 0.8;
+  position: relative;
+  z-index: 2;
+  font-weight: 400;
+  max-width: 500px;
+  margin: 0 auto;
+  color: var(--text-color);
+}
+
+.home-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 2rem;
+  padding: 0;
+}
+
+.split-section {
+  position: relative;
+  height: 350px;
+  border-radius: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  box-shadow: 0 8px 25px rgba(255, 107, 53, 0.2);
+}
+
+.workshops-section {
+  position: relative;
+}
+
+.products-section {
+  position: relative;
+}
+
+.split-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><polygon fill="rgba(255,255,255,0.1)" points="0,1000 1000,0 1000,1000"/><circle cx="200" cy="200" r="100" fill="rgba(255,255,255,0.05)"/><circle cx="800" cy="300" r="150" fill="rgba(255,255,255,0.03)"/></svg>');
+  background-size: cover;
+  opacity: 0.7;
+}
+
+.split-section::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.split-section:hover::after {
+  width: 70px;
+  height: 70px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.split-section:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(255, 107, 53, 0.3);
+}
+
+.split-section-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  color: white;
+  text-align: center;
+  z-index: 3;
+}
+
+.split-section-content h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  letter-spacing: 1px;
+}
+
+.split-section-content p {
+  font-size: 1.1rem;
+  opacity: 0.95;
+  font-weight: 400;
+}
+
+.features-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 4rem 2rem;
+  background: var(--section-bg);
+  margin: 2rem;
+  border-radius: 30px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.feature {
+  text-align: center;
+  padding: 2rem;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.feature::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  transition: left 0.5s ease;
+}
+
+.feature:hover::before {
+  left: 0;
+}
+
+.feature:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(255, 107, 53, 0.15);
+}
+
+.feature h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.feature p {
+  color: var(--text-color);
+  line-height: 1.6;
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
+  .home-split {
+    gap: 1.5rem;
+  }
+  
+  .split-section {
+    height: 320px;
+  }
+  
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-section {
+    padding: 1.5rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-split {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin: 1rem;
+  }
+
+  .features-section {
+    grid-template-columns: 1fr;
+    padding: 3rem 1rem;
+    margin: 1rem;
+  }
+
+  .hero-section {
+    margin: 1rem;
+    padding: 1.5rem 1rem;
+  }
+
+  .hero-section h1 {
+    font-size: 1.8rem;
+  }
+  
+  .hero-section p {
+    font-size: 0.9rem;
+  }
+  
+  .split-section-content h2 {
+    font-size: 1.8rem;
+  }
+  
+  .split-section {
+    height: 280px;
+  }
+  
+  .split-section-content {
+    padding: 1.5rem;
+  }
+} 
