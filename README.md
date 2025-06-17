@@ -20,14 +20,6 @@
 - **İletişim**: İletişim formu ve bilgileri
 - **Giriş**: Kullanıcı kimlik doğrulama
 
-### Kimlik Doğrulama
-- **Basit Login Sistemi**: Yerel depolama tabanlı
-- **Varsayılan Kullanıcı Bilgileri**:
-  - Kullanıcı Adı: `tuana`
-  - Şifre: `123`
-- **Session Yönetimi**: localStorage ile kalıcı giriş
-- **Dinamik Header**: Giriş durumuna göre değişen butonlar
-
 ### Tasarım Özellikleri
 - **Turuncu Tema**: Bodrum atmosferini yansıtan renk paleti
 - **Responsive Tasarım**: Tüm cihazlarda uyumlu
