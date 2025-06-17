@@ -4,57 +4,83 @@ import './About.css';
 const About = () => {
   return (
     <div className="about-page">
-      <div className="page-header">
-        <h1>Hakkımızda</h1>
-        <p>Bodrum'un eşsiz lezzetlerini ve el yapımı ürünlerini tüm Türkiye'ye ulaştırıyoruz</p>
+      {/* Hero Section */}
+      <div className="hero-section">
+        <div className="hero-content">
+          <h1>Hakkımızda</h1>
+          <p>Bodrum'un eşsiz kültürünü tüm Türkiye'ye taşıyoruz</p>
+        </div>
       </div>
 
-      <div className="about-content">
-        <section className="about-section">
-          <h2>Biz Kimiz?</h2>
-          <p>
-            Bodrum'dan Gelsin olarak, Bodrum'un eşsiz kültürünü ve el yapımı ürünlerini tüm Türkiye'ye ulaştırmayı hedefliyoruz. 
-            Yerel ustalarımızın elinden çıkan özel ürünleri ve workshop eğitimlerimizle, Bodrum'un ruhunu yaşatıyoruz.
-          </p>
-        </section>
-
-        <section className="about-section">
-          <h2>Misyonumuz</h2>
-          <p>
-            Bodrum'un zengin kültürel mirasını ve el sanatlarını korumak, geliştirmek ve tüm Türkiye'ye tanıtmak için çalışıyoruz. 
-            Yerel üreticilerimizi destekleyerek, sürdürülebilir bir üretim modeli oluşturuyoruz.
-          </p>
-        </section>
-
-        <section className="about-section">
-          <h2>Vizyonumuz</h2>
-          <p>
-            Türkiye'nin her köşesine Bodrum'un eşsiz ürünlerini ulaştırarak, yerel ekonomiyi güçlendirmek ve 
-            el sanatlarının yaşatılmasına katkıda bulunmak istiyoruz.
-          </p>
-        </section>
-
-        <section className="values-section">
-          <h2>Değerlerimiz</h2>
-          <div className="values-grid">
-            <div className="value-card">
-              <h3>Kalite</h3>
-              <p>En kaliteli malzemeler ve işçilik</p>
-            </div>
-            <div className="value-card">
-              <h3>Sürdürülebilirlik</h3>
-              <p>Çevre dostu üretim ve paketleme</p>
-            </div>
-            <div className="value-card">
-              <h3>Yerellik</h3>
-              <p>Yerel üreticileri destekleme</p>
-            </div>
-            <div className="value-card">
-              <h3>Yenilikçilik</h3>
-              <p>Sürekli gelişim ve yenilik</p>
+      {/* Story Section */}
+      <div className="story-section">
+        <div className="story-content">
+          <div className="story-image">
+            <div className="image-placeholder">
+              🏛️
             </div>
           </div>
-        </section>
+          <div className="story-text">
+            <h2>Hikayemiz</h2>
+            <p>
+              Bodrum'dan Gelsin, Bodrum'un büyülü atmosferinden ve zengin kültürel 
+              mirasından ilham alarak doğdu. Ege'nin incisi Bodrum'un köylerinde yaşayan usta 
+              ellerin ortaya çıkardığı eşsiz ürünleri tüm Türkiye'ye ulaştırma misyonuyla yola 
+              çıktık.
+            </p>
+            <p>
+              Geleneksel el sanatlarından modern tasarımlara, organik ürünlerden benzersiz 
+              workshop deneyimlerine kadar Bodrum'un ruhunu taşıyan her şeyi sizlerle 
+              buluşturuyoruz.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Mission & Vision Cards */}
+      <div className="mission-vision-section">
+        <div className="mv-card mission-card">
+          <div className="mv-icon">🎯</div>
+          <h3>Misyonumuz</h3>
+          <p>
+            Bodrum'un köylerindeki yerel üreticileri destekleyerek, el yapımı ürünleri ve 
+            geleneksel sanatları modern dünyada yaşatmak. Kaliteli, özgün ve sürdürülebilir 
+            ürünlerle müşterilerimize Bodrum'un eşsiz deneyimini sunmak.
+          </p>
+        </div>
+        <div className="mv-card vision-card">
+          <div className="mv-icon">👁️</div>
+          <h3>Vizyonumuz</h3>
+          <p>
+            Türkiye'nin en güvenilir el yapımı ürün platformu olmak. Geleneksel sanatları 
+            modern yaşamla buluştururak, kültürel mirasımızın gelecek nesillere aktarılmasına 
+            katkıda bulunmak ve yerel ekonomiyi güçlendirmek.
+          </p>
+        </div>
+      </div>
+
+      {/* Values Section */}
+      <div className="values-section">
+        <h2>Değerlerimiz</h2>
+        <p className="values-subtitle">Çalışmalarımızı yönlendiren temel ilkelerimiz</p>
+        
+        <div className="values-grid">
+          <div className="value-card">
+            <div className="value-icon">🤝</div>
+            <h3>Güven</h3>
+            <p>Müşterilerimizle ve üreticilerimizle kurduğumuz güven ilişkisi her şeyden önce gelir.</p>
+          </div>
+          <div className="value-card">
+            <div className="value-icon">⭐</div>
+            <h3>Kalite</h3>
+            <p>Sadece en kaliteli ürünleri seçiyor, titizlikle kontrol ediyoruz.</p>
+          </div>
+          <div className="value-card">
+            <div className="value-icon">🌱</div>
+            <h3>Sürdürülebilirlik</h3>
+            <p>Çevreye duyarlı üretim ve sürdürülebilir iş modelleri benimsiyoruz.</p>
+          </div>
+        </div>
       </div>
     </div>
   );
