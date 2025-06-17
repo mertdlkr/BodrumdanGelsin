@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import aboutImage from '../assets/about/about-image.jpg';
 
 const About = () => {
   return (
@@ -16,22 +17,12 @@ const About = () => {
       <div className="story-section">
         <div className="story-content">
           <div className="story-image">
-            <div className="image-placeholder">
-              🏛️
-            </div>
+            <img src={aboutImage} alt="Bodrum'dan Gelsin Hikayesi" />
           </div>
           <div className="story-text">
             <h2>Hikayemiz</h2>
             <p>
-              Bodrum'dan Gelsin, Bodrum'un büyülü atmosferinden ve zengin kültürel 
-              mirasından ilham alarak doğdu. Ege'nin incisi Bodrum'un köylerinde yaşayan usta 
-              ellerin ortaya çıkardığı eşsiz ürünleri tüm Türkiye'ye ulaştırma misyonuyla yola 
-              çıktık.
-            </p>
-            <p>
-              Geleneksel el sanatlarından modern tasarımlara, organik ürünlerden benzersiz 
-              workshop deneyimlerine kadar Bodrum'un ruhunu taşıyan her şeyi sizlerle 
-              buluşturuyoruz.
+              Bodrum'dan Gelsin, Bodrum'un eşsiz mandalina bahçelerinden ilham alan ve doğallığı merkezine koyan bir markadır. Üreticiden doğrudan alınan mandalinaları, el emeğiyle katma değerli ürünlere dönüştürerek hem yerel ekonomiyi destekliyor hem de tüketicilere sağlıklı ve özgün tatlar sunuyoruz. Amacımız; Bodrum'un bereketli topraklarını, doğanın cömertliğini ve sürdürülebilir üretimi herkesle buluşturmak.
             </p>
           </div>
         </div>

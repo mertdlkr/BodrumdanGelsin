@@ -1,21 +1,27 @@
 import React from 'react';
 import './Workshops.css';
 
+// Workshop fotoğrafları
+import workshop1 from '../assets/workshops/workshop1.jpg';
+import workshop2 from '../assets/workshops/workshop2.jpg';
+import tshirt1 from '../assets/workshops/tshirt1.jpg';
+import tshirt2 from '../assets/workshops/tshirt2.jpg';
+
 const Workshops = () => {
   const workshops = [
     {
       id: 1,
-      title: 'El Yapımı Ürünler Eğitimi',
+      title: 'Yoga Workshopu',
       description: 'Bodrum\'un ustalarından el yapımı ürünler yapmayı öğrenin',
-      image: '/workshop1.jpg',
+      image: workshop1,
       price: '₺2500',
       duration: '16/08/2025'
     },
     {
       id: 2,
-      title: 'Tasarım Atölyesi',
+      title: 'Mandalina Workshopu',
       description: 'Kendi tasarımlarınızı oluşturun ve üretin',
-      image: '/workshop2.jpg',
+      image: workshop2,
       price: '₺2500',
       duration: '16/08/2025'
     }
@@ -25,15 +31,15 @@ const Workshops = () => {
     {
       id: 1,
       name: 'Bodrum Tasarım Tişört',
-      image: '/tshirt1.jpg',
-      price: '₺XXX',
+      image: tshirt1,
+      price: '₺500',
       sizes: ['S', 'M', 'L', 'XL']
     },
     {
       id: 2,
-      name: 'Özel Koleksiyon Tişört',
-      image: '/tshirt2.jpg',
-      price: '₺XXX',
+      name: 'Bodrum Tasarım Tişört',
+      image: tshirt2,
+      price: '₺500',
       sizes: ['S', 'M', 'L', 'XL']
     }
   ];
